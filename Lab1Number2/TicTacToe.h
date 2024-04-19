@@ -3,13 +3,6 @@
 #include <string>
 
 class TicTacToe {
-private:
-    std::vector<char> gameBoard;
-    int currentPlayer;
-    char currentSymbol;
-    std::string playerFirst;
-    std::string playerSecond;
-
 public:
     TicTacToe();
 
@@ -30,4 +23,11 @@ public:
     bool checkWin(const std::vector<char>& board, char symbol);
     int nobodyWin(const std::vector<char>& board);
     void printMenu();
+
+private:
+    std::vector<char> gameBoard;
+    int currentPlayer;
+    char currentSymbol;
+    std::string playerFirst;
+    std::string playerSecond;
 };

@@ -21,9 +21,15 @@
     <ClCompile Include="TicTacToe.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="GameChoicecpp.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TicTacToe.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GameChoice.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
