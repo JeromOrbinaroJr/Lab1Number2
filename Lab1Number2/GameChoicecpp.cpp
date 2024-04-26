@@ -5,7 +5,6 @@
 #include <locale.h>
 #include <random>
 #define locale setlocale(LC_ALL, "Russian");
-
 void playAgainstComputer() {
     std::random_device rd;
     std::mt19937 gen(rd());
